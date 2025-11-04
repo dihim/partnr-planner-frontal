@@ -1,7 +1,7 @@
 # @package _global_
 
 defaults:
-  - /examples/planner_multi_agent_demo_config
+  - /examples/frontal_planner_multi_agent_demo_config
   - override /evaluation: decentralized_evaluation_runner_single_agent
   - override /planner@evaluation.agents.agent_0.planner: llm_zero_shot_react_planner
   - override /instruct@evaluation.agents.agent_0.planner.plan_config.instruct: zero_shot_prompt
